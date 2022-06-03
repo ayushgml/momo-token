@@ -1,5 +1,5 @@
-const MomoToken = artifacts.require("MomoToken");
+const MomoToken = artifacts.require("./MomoToken.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(MomoToken);
+  deployer.deploy(MomoToken, 1000000);
 };
